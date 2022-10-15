@@ -1,0 +1,119 @@
+/* pc */
+@media (min-width: 1024px) {
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .content-section {
+        margin: 0 2%;
+    }
+}
+
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .socials-list {
+        font-size: 48px;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    #nav li {
+        display: block;
+        background-color: black;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        color: white;
+        padding: 0 14px;
+    }
+
+    #header .menu-icon {
+        line-height: 50px;
+    }
+
+    #header .mobile-menu-btn:hover {
+        cursor: pointer;
+        background-color: gray;
+        color: black;
+    }
+
+    #nav, #nav li a {
+        display: block;
+    }
+
+    #nav li a {
+        text-align: left;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav a {
+        background-color: #333;
+        color: white;
+        padding: 15px 41px;
+    }
+
+    #content .member-item {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .content-section {
+        margin: 0 2%;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+
+    }
+
+    .tour-section .places-list {
+        margin-top: 16px;
+    }
+
+    .form-submit-btn {
+        width: 100%;
+    }
+
+    #contact .contact-form .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .s-no-padding {
+        padding: 0px !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .place-buy-btn {
+        width: 100%;
+    }
+}
